@@ -16,6 +16,7 @@ namespace TestProject1
                 Console.SetOut(sw);
                 ConsoleApp1.Program.Main();
 
+
                 var result = sw.ToString().Trim();
                 Assert.AreEqual(Expected, result);
             }
